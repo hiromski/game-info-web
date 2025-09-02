@@ -1,0 +1,77 @@
+@keyframes fadeOutBackground {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+ruby rt {
+  font-size: 0.4em;
+  color: #555;
+  line-height: 1;
+  font-family: "Noto Sans JP", sans-serif;
+  padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 43px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+
+.skyBackground {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.skyBackground::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../assets/sky-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 1;
+  animation: fadeOutBackground 2s ease forwards;
+  z-index: -1;
+}
+
+.welcome {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 16px;
+  justify-items: center;
+}
+
+.grid4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card:nth-child(n+5) {
+  grid-column: span 1;
+}
+.grid > :nth-child(5) {
+  grid-column: 2;
+}
