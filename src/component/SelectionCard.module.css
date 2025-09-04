@@ -14,16 +14,20 @@
 
 .card span {
   display: block;
-  font-size: 12px;
+  font-size: 10px;
   color: #555;
-  margin-top: 6px;
 }
 
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
 }
 
 .card:nth-child(n+5) {
   grid-column: span 1;
+}
+
+.card img {
+   width: 60%;  
+  height: auto;   
 }
