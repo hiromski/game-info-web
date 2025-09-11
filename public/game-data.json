@@ -1,0 +1,191 @@
+[
+  {
+    "title": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["saveTheWorld"],
+    "description": "リンクになってひろいせかいをぼうけんして、ハイラルをまもろう！"
+  },
+  {
+    "title": "Minecraft",
+    "platform": ["Nintendo Switch", "PlayStation 4", "PC", "Xbox", "Mobile"],
+    "developer": "Mojang Studios",
+    "genre": ["building"],
+    "description": "ブロックでおうちやまちをつくったり、ぼうけんしたりしよう。"
+  },
+  {
+    "title": "スーパーマリオ オデッセイ",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["adventure"],
+    "description": "マリオといっしょにせかいをぼうけんして、ピーチひめをたすけよう！"
+  },
+  {
+    "title": "あつまれ どうぶつの森",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["building"],
+    "description": "しまでおうちやむらをつくって、どうぶつとたのしくくらそう。"
+  },
+  {
+    "title": "ポケットモンスター スカーレット・バイオレット",
+    "platform": ["Nintendo Switch"],
+    "developer": "Game Freak",
+    "genre": ["raising"],
+    "description": "ポケモンをつかまえてそだてて、バトルをたのしもう！"
+  },
+  {
+    "title": "牧場物語",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["raising"],
+    "description": "はたけでやさいをそだてたり、どうぶつのせわをしよう。"
+  },
+  {
+    "title": "スプラトゥーン3",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["multiplayer"],
+    "description": "インクをぬってたたかう、たのしいゲームだよ。"
+  },
+  {
+    "title": "APEX LEGENDS",
+    "platform": ["Nintendo Switch, PC, PlayStation 4, Playstation 5"],
+    "developer": "EA",
+    "genre": ["multiplayer"],
+    "description": "チームでなかまをたすけながらたたかうバトルゲームだよ。"
+  },
+  {
+    "title": "Street Fighter 6",
+    "platform": ["Nintendo Switch, PC, PlayStation 4, Playstation 5"],
+    "developer": "CAPCOM",
+    "genre": ["multiplayer"],
+    "description": "キャラクターをえらんでたたかおう！"
+  },
+  {
+    "title": "グランツーリスモ7",
+    "platform": ["PlayStation 5", "PlayStation 4"],
+    "developer": "Polyphony Digital",
+    "genre": ["sports"],
+    "description": "たくさんのくるまでレースをたのしもう。"
+  },
+  {
+    "title": "ドラゴンクエストビルダーズ2",
+    "platform": ["Nintendo Switch", "PlayStation 4", "PC"],
+    "developer": "Square Enix",
+    "genre": ["building"],
+    "description": "ブロックでまちをつくって、モンスターとたたかおう！"
+  },
+  {
+    "title": "キングダム ハーツ HD 1.5 + 2.5 リミックス",
+    "platform": ["PlayStation 4", "Nintendo Switch (Cloud)"],
+    "developer": "Square Enix",
+    "genre": ["adventure"],
+    "description": "ディズニーのせかいをぼうけんしよう。"
+  },
+  {
+    "title": "ぷよぷよテトリス2",
+    "platform": ["Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox", "PC"],
+    "developer": "SEGA",
+    "genre": ["puzzle"],
+    "description": "ぷよぷよとテトリスのパズルであそぼう！"
+  },
+  {
+    "title": "ロブロックス",
+    "platform": ["PC", "iOS", "Android", "Xbox One"],
+    "developer": "Roblox Corporation",
+    "genre": ["building"],
+    "description": "じぶんでゲームをつくったり、ほかのひとのゲームであそべるよ。"
+  },
+  {
+    "title": "ゼルダの伝説 ティアーズオブキングダム",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["saveTheWorld"],
+    "description": "リンクといっしょにあたらしいハイラルをぼうけんしよう。"
+  },
+  {
+    "title": "ファイアーエムブレム 風花雪月",
+    "platform": ["Nintendo Switch"],
+    "developer": "Intelligent Systems",
+    "genre": ["saveTheWorld"],
+    "description": "せいとをそだてながらたたかうゲームだよ。"
+  },
+  {
+    "title": "ファイアーエムブレム エンゲージ",
+    "platform": ["Nintendo Switch"],
+    "developer": "Intelligent Systems",
+    "genre": ["saveTheWorld"],
+    "description": "えいゆうをあつめてたたかおう！"
+  },
+  {
+    "title": "星のカービィ ディスカバリー",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["adventure"],
+    "description": "カービィになってぼうけんし、てきをすいこもう！"
+  },
+  {
+    "title": "大乱闘スマッシュブラザーズ SPECIAL",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["party"],
+    "description": "いろんなキャラクターでたたかう、みんなでたのしいゲーム。"
+  },
+  {
+    "title": "スーパー マリオパーティ",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["party"],
+    "description": "ミニゲームをあそんで、ほしをあつめよう！"
+  },
+  {
+    "title": "マリオカート8 デラックス",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["sports"],
+    "description": "マリオたちとレース！アイテムでたのしくたたかえるよ。"
+  },
+  {
+    "title": "Nintendo Switch Sports",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["sports"],
+    "description": "テニスやボウリングなど、からだをうごかしてスポーツ！"
+  },
+  {
+    "title": "オーバークック2",
+    "platform": ["Nintendo Switch", "PlayStation 4", "PC", "Xbox One"],
+    "developer": "Ghost Town Games",
+    "genre": ["party"],
+    "description": "みんなでいっしょにりょうりをつくろう！"
+  },
+  {
+    "title": "桃太郎電鉄 ～昭和 平成 令和も定番！～",
+    "platform": ["Nintendo Switch"],
+    "developer": "Konami",
+    "genre": ["party"],
+    "description": "にほんをたびして、おかねをふやそう！"
+  },
+  {
+    "title": "eFootball",
+    "platform": ["Playstation4, playstation5"],
+    "developer": "KONAMI",
+    "genre": ["sports"],
+    "description": "せかいのチームでサッカーをたのしもう！"
+  },
+  {
+    "title": "レイトン教授 シリーズ",
+    "platform": ["Nintendo Switch"],
+    "developer": "レベルファイブ",
+    "genre": ["puzzle"],
+    "description": "レイトンきょうじゅといっしょになぞをとこう！"
+  },
+  {
+    "title": "逆転裁判 シリーズ",
+    "platform": ["Nintendo Switch", "PlayStation 4"],
+    "developer": "カプコン",
+    "genre": ["puzzle"],
+    "description": "ほうていでしょうこをあつめて、しんじつをみつけよう！"
+  }
+]

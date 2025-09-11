@@ -12,6 +12,7 @@ function App() {
    const gameDivRef = useRef()
 
     useEffect(() => {
+      console.log('fetching game data...')
       const fetchGameData = async () => {
         const res = await fetch('/game-data.json')
         const data = await res.json()
