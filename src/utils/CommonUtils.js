@@ -7,6 +7,11 @@ for (const path in modules) {
   IMAGES[name] = modules[path].default;
 }
 
+export function getGamesByGenre(genre, games) {
+  console.log(games)
+   return games.filter(game => game.genre.includes(genre));
+}
+
 export const GENRES = {
     saveTheWorld: 'saveTheWorld',
     adventure: 'adventure',

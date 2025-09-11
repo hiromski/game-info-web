@@ -30,16 +30,28 @@
     "genre": ["raising"]
   },
   {
+    "title": "牧場物語",
+    "platform": ["Nintendo Switch"],
+    "developer": "Nintendo",
+    "genre": ["raising"]
+  },
+  {
     "title": "スプラトゥーン3",
     "platform": ["Nintendo Switch"],
     "developer": "Nintendo",
     "genre": ["multiplayer"]
   },
   {
-    "title": "リトルビッグプラネット3",
-    "platform": ["PlayStation 4", "PlayStation 3"],
-    "developer": "Sumo Digital",
-    "genre": ["puzzle"]
+    "title": "APEX LEGENDS",
+    "platform": ["Nintendo Switch, PC, PlayStation 4, Playstation 5"],
+    "developer": "EA",
+    "genre": ["multiplayer"]
+  },
+  {
+    "title": "Street Fighter 6",
+    "platform": ["Nintendo Switch, PC, PlayStation 4, Playstation 5"],
+    "developer": "CAPCOM",
+    "genre": ["multiplayer"]
   },
   {
     "title": "グランツーリスモ7",
@@ -76,12 +88,6 @@
     "platform": ["Nintendo Switch"],
     "developer": "Nintendo",
     "genre": ["saveTheWorld"]
-  },
-  {
-    "title": "Minecraft",
-    "platform": ["Nintendo Switch", "PlayStation 4", "PC", "Xbox", "Mobile"],
-    "developer": "Mojang Studios",
-    "genre": ["building"]
   },
   {
     "title": "ファイアーエムブレム 風花雪月",
@@ -136,5 +142,29 @@
     "platform": ["Nintendo Switch"],
     "developer": "Konami",
     "genre": ["party"]
+  },
+  {
+    "title": "eFootball",
+    "platform": ["Playstation4, playstation5"],
+    "developer": "KONAMI",
+    "genre": ["sports"]
+  },
+  {
+    "title": "FC25",
+    "platform": ["Playstation4, playstation5, Nintendo Switch"],
+    "developer": "EA",
+    "genre": ["sports"]
+  },
+  {
+    "title": "レイトン教授 シリーズ",
+    "platform": ["Nintendo Switch"],
+    "developer": "レベルファイブ",
+    "genre": ["puzzle"]
+  },
+  {
+    "title": "逆転裁判 シリーズ",
+    "platform": ["Nintendo Switch", "PlayStation 4"],
+    "developer": "カプコン",
+    "genre": ["puzzle"]
   }
 ]

@@ -54,7 +54,7 @@ export default function SelectionCard({ selection, children, image, hoveredImage
         <div class={style.card}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            onClick={onSelectCard}>
+            onClick={() => onSelectCard(selection)}>
             {children}
             {hovered &&
                 <>
