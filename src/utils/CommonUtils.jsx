@@ -132,7 +132,7 @@ export const GENRE_TITLES = (selection) => {
     ),
     [GENRES.party]: (
       <span>
-        みんなで<ruby>遊<rt>あそ</rt></ruby>ぶ<ruby>ゲーム<rt>げーむ</rt></ruby>をえらぼう！
+        みんなで<ruby>遊<rt>あそ</rt></ruby>んでみたい<ruby>ゲーム<rt>げーむ</rt></ruby>をえらぼう！
       </span>
     ),
   };
