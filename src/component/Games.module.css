@@ -3,11 +3,19 @@
    margin: 0;
    min-height: 100vh;
    background: linear-gradient(to bottom, #c1e2de, #fdfcdc);
+   display: flex;
+  flex-direction: column;
 }
 
 .gamesScroll {
    height: 35vh;
    background-color: transparent;
    position: relative;
-   top: 35vh;
+   top: 15vh;
+   margin-left: 1.5vw;
+}
+
+.showGames h2 {
+  text-align: center;
+  margin-top: 20vh;
 }

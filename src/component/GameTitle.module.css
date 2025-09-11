@@ -16,6 +16,13 @@
 }
 
 .gameCard:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.gameImage {
+  background-color: rgb(255, 253, 137);
+  height: 90%;
+  width: 100%;
+  text-align: center;
 }

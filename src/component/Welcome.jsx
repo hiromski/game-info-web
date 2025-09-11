@@ -1,4 +1,4 @@
-import { GENRES } from '../utils/CommonUtils';
+import { GENRES, IMG_GENRE } from '../utils/CommonUtils';
 import SelectionCard from './SelectionCard';
 import styles from './Welcome.module.css'
 import { motion } from 'framer-motion'
@@ -23,7 +23,7 @@ export function Welcome({ onSelectCard }) {
 
   const cardData = [
     {
-      selection: GENRES.saveTheWorld, image: "globe", hoveredImage: "sword", text: (
+      selection: GENRES.saveTheWorld, image: "globe", hoveredImage: IMG_GENRE['saveTheWorld'], text: (
         <>
           <ruby>世界<rt>せかい</rt></ruby>を
           <ruby>守<rt>まも</rt></ruby>りたい！
@@ -31,7 +31,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.adventure, image: "adventure", hoveredImage: "magic", text: (
+      selection: GENRES.adventure, image: "adventure", hoveredImage: IMG_GENRE['adventure'], text: (
         <>
           <ruby>魔法使<rt>まほうつか</rt></ruby>いや
           <ruby>冒険者<rt>ぼうけんしゃ</rt></ruby>になりたい！
@@ -39,7 +39,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.building, image: "building", hoveredImage: "hammer", text: (
+      selection: GENRES.building, image: "building", hoveredImage: IMG_GENRE['building'], text: (
         <>
           <ruby>もの<rt>もの</rt></ruby>づくりの
           <ruby>達人<rt>たつじん</rt></ruby>になりたい！
@@ -47,7 +47,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.raising, image: "animals", hoveredImage: "egg", text: (
+      selection: GENRES.raising, image: "animals", hoveredImage: IMG_GENRE['raising'], text: (
         <>
           <ruby>生<rt>い</rt></ruby>き
           <ruby>物<rt>もの</rt></ruby>を
@@ -56,7 +56,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.puzzle, image: "detective", hoveredImage: "magnifying", text: (
+      selection: GENRES.puzzle, image: "detective", hoveredImage: IMG_GENRE['puzzle'], text: (
         <>
           <ruby>なぞ<rt>なぞ</rt></ruby>
           <ruby>解<rt>と</rt></ruby>き
@@ -67,7 +67,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.multiplayer, image: "competition", hoveredImage: "medal", text: (
+      selection: GENRES.multiplayer, image: "competition", hoveredImage: IMG_GENRE['multiplayer'], text: (
         <>
           <ruby>対戦<rt>たいせん</rt></ruby>で
           1<ruby>位<rt>い</rt></ruby>になりたい！
@@ -75,7 +75,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.sports, image: "sports", hoveredImage: "trophy", text: (
+      selection: GENRES.sports, image: "sports", hoveredImage: IMG_GENRE['sports'], text: (
         <>
           <ruby>スター<rt>すたー</rt></ruby>
           <ruby>選手<rt>せんしゅ</rt></ruby>になりたい！
@@ -83,7 +83,7 @@ export function Welcome({ onSelectCard }) {
       )
     },
     {
-      selection: GENRES.party, image: "party", hoveredImage: "cracker", text: (
+      selection: GENRES.party, image: "party", hoveredImage: IMG_GENRE['party'], text: (
         <>
           みんなでワイワイ
           <ruby>楽<rt>たの</rt></ruby>しみたい！

@@ -2,6 +2,8 @@ import styles from './Games.module.css'
 import { motion } from 'framer-motion'
 import GameTitle from './GameTitle';
 import { useEffect, useState } from 'react';
+import { GENRE_TITLES } from '../utils/CommonUtils';
+import { select } from 'framer-motion/client';
 
 
 export default function Games({ genre, games }) {
@@ -27,7 +29,7 @@ export default function Games({ genre, games }) {
 
   return (
     <div className={styles.showGames}>
-      <div>{genre}</div>
+      <h2>{GENRE_TITLES(genre)}</h2>
       <div className={styles.gamesScroll}>
         <motion.div
           variants={containerVariants}

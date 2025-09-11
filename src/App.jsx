@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import { Welcome } from './component/Welcome'
 import Games from './component/Games';
-import { getGamesByGenre } from './utils/CommonUtils';
+import { getGamesByGenre } from './utils/CommonUtils.jsx';
 
 function App() {
    const [games, setGames] = useState([]);
@@ -17,7 +17,6 @@ function App() {
         const data = await res.json()
         
         setGames(data)
-        console.log(data)
       }
 
       fetchGameData()
