@@ -7,6 +7,9 @@ export function Game({ open, game, onClose }) {
             <h2 style={{ fontSize: '16px' }}>
                 {game.title}
             </h2>
+            <span>
+                {game.platform}
+            </span>
             <p>
                 {game.description}
             </p>

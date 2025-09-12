@@ -1,12 +1,36 @@
-# React + Vite
+# 子ども向けゲーム情報ウェブサイト
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 プロジェクト概要
 
-Currently, two official plugins are available:
+このウェブサイトは **主に小学生向けのゲーム情報ポータル** です。  
+子どもが楽しみながらゲーム情報を探せるように、以下の特徴を持っています：
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ゲームをジャンル別に一覧表示  
+- 子どもが興味を持ちやすいアニメーションやカラフルな UI を採用  
+- ゲームの詳細情報（プラットフォーム、説明）を簡単に確認可能  
 
-## Expanding the ESLint configuration
+## 🖥️ 実行環境
+- 言語: Node.js v22.17.1
+- フレームワーク: React 19.1.1 (Vite 7.1.2)
+- パッケージマネージャ: npm v10.9.2
+- OS: Windows 11 / macOS で動作確認済み
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+※ 上記バージョン以外でも動作する可能性はありますが、採点環境の再現性を考慮し、このバージョンを推奨します。
+
+## ⚙️ セットアップ方法
+
+1. ZIP で提出されたプロジェクトフォルダを解凍して開く
+2. ターミナルでプロジェクトフォルダに移動　<br>
+```bash
+cd game-info-html
+npm install
+npm run dev
+```
+
+## 🌐 デプロイURL（任意）
+デプロイ済みのアプリはこちらからアクセス可能です:  
+[https://games-info-kids.web.app/](https://games-info-kids.web.app/)
+
+
+### 5. 注意点
+- データはフロントエンドに静的に保存されているため、リアルタイム更新は不可  
